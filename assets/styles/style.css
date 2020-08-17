@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Lora', serif;
+}
+
+html { 
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100vh;
+  background: url('../images/dn.jpg');
+  background-size: cover;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  padding: 25px;
+  overflow: auto;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+  -ms-transition: background 0.7s;
+  -o-transition: background 0.7s;
+  transition: background 0.7s;
+}
+
+.btn-nav {
+  float: left;
+  width: 20%;
+  margin-left: 40px;
+}
+
+.main-nav {
+  float: right;
+  width: 75%;
+  text-align: right;
+}
+
+.main-nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 25px;
+}
+
+.main-nav a {
+  font-size: 18px;
+  font-weight: 350;
+  text-decoration: none;
+  color: white;
+}
+
+.fa {
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+}
+
+#content h2 {
+  margin-bottom: 20px;
+}
+
+.about-section {
+  box-shadow: 0 13px 53px 1px rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  text-align: center;
+  overflow: auto;
+}
+
+.about-section aside {
+  float: left;
+  width: 30%;
+}
+
+#content h1 {
+  margin-bottom: 30px;
+}
+
+.info-head img {
+  max-width: 200px;
+}
+
+.table-info {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.table-info table tr th {
+  text-align: left;
+}
+
+.table-info table tr td {
+  text-align: right;
+}
+
+.table-info table tr td li {
+  list-style-type: none;
+}
+
+#about-content {
+  float: right;
+  width: 70%;
+  text-align: justify;
+}
+
+.info-body h2 {
+  text-align: center;
+}
+
+.casts-section {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 93%;
+  margin: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.box {
+  flex-grow: 1;
+  box-shadow: 0 13px 53px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.box img {
+  width: 260px;
+  height: 90%;
+}
+
+.box:hover {
+  box-shadow: 0 0 8px 5px #3c0e0e;
+  transition: 1s ease;
+}
+
+.music-section {
+  box-shadow: 0 13px 53px 1px rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  text-align: center;
+}
+
+.music-section h1 {
+  text-align: center;
+}
+
+.hans {
+  margin-top: 100px;
+  overflow: auto;
+}
+
+.hans-info {
+  float: left;
+  width: 30%;
+}
+
+.hans-info img {
+  max-width: 300px;
+}
+
+.hans-detail {
+  float: right;
+  width: 70%;
+  text-align: justify;
+}
+
+.james {
+  margin-top: 100px;
+  border: 10px;
+  overflow: auto;
+}
+
+.james-info {
+  float: right;
+  width: 30%;
+}
+
+.james-info img {
+  max-width: 300px;
+}
+
+.james-detail {
+  float: left;
+  width: 70%;
+  text-align: justify;
+}
+
+.director-section {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  overflow: auto;
+}
+
+.director-section h1 {
+  margin-top: 30px;
+}
+
+.director-section section {
+  box-shadow: 0 13px 53px 1px rgba(0, 0, 0, 0.1);
+  float: left;
+  width: 65%;
+  text-align: center;
+}
+
+.director-section p {
+  padding: 30px;
+  text-align: justify;
+}
+
+.director-section aside {
+  box-shadow: 0 13px 53px 1px rgba(0, 0, 0, 0.1);
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+
+.director-section aside img {
+  width: 230px;
+  height: 400px;
+}
+
+footer {
+  box-shadow: 0 13px 53px 1px rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .btn-nav {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .main-nav {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .main-nav a {
+    font-size: 12px;
+  }
+
+  .main-nav li {
+    margin: 10px;
+  }
+
+  #about-img,
+  #about-content {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .box img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .hans-info,
+  .hans-detail {
+    width: 100%;
+  }
+
+  .hans-info img {
+    max-width: 200px;
+  }
+
+  .james-info,
+  .james-detail {
+    width: 100%;
+  }
+
+  .james-info img {
+    max-width: 200px;
+  }
+
+  .director-section section {
+    width: 100%;
+  }
+
+  .director-section aside {
+    width: 100%;
+  }
+
+}
